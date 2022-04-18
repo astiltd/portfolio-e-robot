@@ -1,5 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700;800&display=swap');
+
+
 .nav-container{
-    height: 60px;
-    background-color: rgb(209, 189, 189);
-    margin-top: 0px;
+    height: 120px;
+    background-color: inherit;
+    flex: 1;
 }
+
+
+.nav-logo{
+    line-height: 0.85;
+    overflow: hidden;
+}
+
+.wrapper{
+    display: flex;
+    padding: 40px 0 0 50px;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    margin-right:  50px;
+    flex: 1;
+}
+
+.menu2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    margin-right:  50px;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+}
+
+
+
+.h3hover:hover span {
+    display: none;
+}
+
+.h3hover:hover:before {
+    content: "MENU";
+
+}
+
+
+

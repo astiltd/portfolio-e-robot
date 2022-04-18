@@ -4,7 +4,12 @@ import './header.css'
 const Header = () => {
   return (
     <div>
-      <h1>Header</h1>
+      <h1>Helper 
+robots 
+for 
+a 
+better 
+everyday</h1>
     </div>
   )
 }

@@ -1,0 +1,24 @@
+@import url(//db.onlinewebfonts.com/c/4a0c1d6164df2c0aa88da1437cd38ef1?family=Copyright+Klim+Type+Foundry);
+@import url(//db.onlinewebfonts.com/c/0a5f52f5fbed1aeaa36266f72e616be7?family=Copyright+Klim+Type+Foundry);
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700;800&display=swap');
+
+:root{
+    background-color: #EDE8E6;
+}
+
+.text-animation{
+    font-family: 'Manrope', sans-serif;
+    animation: slide-up 1s ease-in-out;
+}
+
+@keyframes slide-up {
+    from{
+        opacity: 0;
+        line-height: 55px;
+    }
+    to {
+        opacity: 1;
+        line-height: 28px;
+    }
+}
+
